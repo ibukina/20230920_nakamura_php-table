@@ -14,78 +14,14 @@
 </head>
 <body>
     <table>
-        <tr>
             <?php
             for($a=1; $a<10; $a++){
-                $b=1;
-                echo '<th>' . $a*$b . '</th>' ;
+                for($b=1; $b<10; $b++){
+                    echo '<td>' . $a*$b . '</td>' ;
+                }
+                echo '<tr>' . '</tr>' ;
             }
             ?>
-        </tr>
-        <tr>
-            <?php
-            for($a=1; $a<10; $a++){
-                $b=2;
-                echo '<td>' . $a*$b . '</td>' ;
-            }
-            ?>
-        </tr>
-        <tr>
-            <?php
-            for($a=1; $a<10; $a++){
-                $b=3;
-                echo '<td>' . $a*$b . '</td>' ;
-            }
-            ?>
-        </tr>
-        <tr>
-            <?php
-            for($a=1; $a<10; $a++){
-                $b=4;
-                echo '<td>' . $a*$b . '</td>' ;
-            }
-            ?>
-        </tr>
-        <tr>
-            <?php
-            for($a=1; $a<10; $a++){
-                $b=5;
-                echo '<td>' . $a*$b . '</td>' ;
-            }
-            ?>
-        </tr>
-        <tr>
-            <?php
-            for($a=1; $a<10; $a++){
-                $b=6;
-                echo '<td>' . $a*$b . '</td>' ;
-            }
-            ?>
-        </tr>
-        <tr>
-            <?php
-            for($a=1; $a<10; $a++){
-                $b=7;
-                echo '<td>' . $a*$b . '</td>' ;
-            }
-            ?>
-        </tr>
-        <tr>
-            <?php
-            for($a=1; $a<10; $a++){
-                $b=8;
-                echo '<td>' . $a*$b . '</td>' ;
-            }
-            ?>
-        </tr>
-        <tr>
-            <?php
-            for($a=1; $a<10; $a++){
-                $b=9;
-                echo '<td>' . $a*$b . '</td>' ;
-            }
-            ?>
-        </tr>
     </table>
 </body>
 </html>
